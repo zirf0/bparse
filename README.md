@@ -33,7 +33,7 @@ SIGHUP строго говоря перезагрузка (reload) скорее,
 
 дернуть файл
 
-**cat aaaa >> /var/tmp/test**
+**echo aaaa >> /var/tmp/test**
 
 **sudo systemctl status  bparse**
 
