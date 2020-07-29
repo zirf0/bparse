@@ -4,14 +4,16 @@
 
 Требования. Нужны установленные [inotify-tools](https://github.com/inotify-tools/inotify-tools/wiki)
 
-git clone https://github.com/zirf0/bparse.git
+**git clone https://github.com/zirf0/bparse.git**
 
-cd bparse
+**cd bparse**
 
 Внимательно. Файлов всего три 
 
 *bparse* это файл конфигурации.
+
 *bparse.sh* это сам скрипт.
+
 *bparse.service* это файл службы.
 
 *install.sh* раскидывает файлы по директориям, это для Ubuntu 20.04. Для CentOS его надо редактировать.
