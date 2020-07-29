@@ -1,0 +1,25 @@
+# Variables for log parser
+
+# LOGFIlE name of log to parse
+LOGFILE=/var/tmp/test
+
+# LSB init functions, for Debian/Ubuntui /lib/lsb/init-functions
+#LSBINIT=/lib/lsb/init-functions
+
+# inotify binary
+INOTIFYWAIT=/usr/bin/inotifywait
+
+# Command to execute
+RUNC=/usr/bin/kill
+
+#String to search 
+SEARCHSTR='Error in timer'
+
+# Service can be present or srvname: or srvname[PID]: so use
+# ":" in first case
+# "[" in second one
+DELIM=":"
+
+#sudo
+SUDO=/usr/bin/sudo
+

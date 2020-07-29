@@ -1,0 +1,13 @@
+[Unit]
+Description=Simple bash log parser
+After=syslog.target network.target sshd.service
+
+[Service]
+Type=forking
+EnvironmentFile=/etc/default/bparse
+#User=
+#Group=
+ExecStart=/usr/local/bin/bparse.sh
+
+[Install]
+WantedBy=multi-user.target
