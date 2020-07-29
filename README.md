@@ -29,13 +29,13 @@ SIGHUP строго говоря перезагрузка (reload) скорее,
 
 Тест простой, в файле /var/tmp/test кусок лога.После запуска службы
 
-sudo systemctl start bparse
+**sudo systemctl start bparse**
 
 дернуть файл
 
-cat aaaa >> /var/tmp/test
+**cat aaaa >> /var/tmp/test**
 
-sudo systemctl status  bparse
+**sudo systemctl status  bparse**
 
 Что-то такое
 
@@ -62,8 +62,9 @@ sudo systemctl status  bparse
 
 у меня службы нет pidof ничего и не выводит
 
+**sudo systemctl stop  bparse**
 
-
+Погасит службу.
 
  
 
