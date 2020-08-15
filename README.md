@@ -1,12 +1,11 @@
-## bparser
-
-
+## Пример парсера лога на   bash (bparser).
+Работает как служба, реагирует на изменение (modify) файла.
 
 Требования. Нужны установленные [inotify-tools](https://github.com/inotify-tools/inotify-tools/wiki)
 
-git clone https://github.com/zirf0/bparse.git
+**git clone https://github.com/zirf0/bparse.git**
 
-cd bparse
+**cd bparse**
 
 Внимательно. Файлов всего три 
 
